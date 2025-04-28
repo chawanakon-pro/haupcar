@@ -9,6 +9,24 @@ export const getCars = async (req, res) => {
   }
 };
 
+export const getCarbyid = async (req, res) => {
+  const { car_id } = req.params;
+  try {
+    const result = await pool.query(
+      "SELECT car_id, brand, model, notes, etc FROM cars WHERE car_id = $1",
+      [car_id]
+    );
+
+    if (result.rows.length === 0) {
+      return res.status(404).json({ message: "Car not found" });
+    }
+
+    res.json(result.rows[0]);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
 export const createCar = async (req, res) => {
   const { car_id, brand, model, notes, etc } = req.body;
   try {
