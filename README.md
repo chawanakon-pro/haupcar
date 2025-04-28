@@ -2,41 +2,54 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## First step
-Create Database Name anything you want 
+## First Step
+Create a database and name it anything you want.
 
-#i upload env file it for purpose
-Change information in env file: 
-data including
-DB_USER= (your database username)
-DB_PASSWORD= (your database password)
-DB_DATABASE= (your database name)
-DB_PORT= (your database name)
-save
+## Second Step
+<!-- Upload the .env file; it is for purposes -->
+Update the information in the `.env` file:  
+Fill in the following data:
+- `DB_USER=` (your database username)<br>
+- `DB_PASSWORD=` (your database password)<br>
+- `DB_DATABASE=` (your database name)<br>
+- `DB_PORT=` (your database port)<br>
 
-open terminal cd haupcar then cd backend
-Then
+Then save the file.
+
+## Third Step
+
+Open a terminal, navigate to the `haupcar` directory, then to the `backend` directory:
+
+run
+### `cd haupcar`
+and run
+### `cd backend`
+
+Then run:
 ### `npm run dev`
-to lunch backend server 
-after that it will create table cars if it not exist
+to launch the backend server.
+It will automatically create the cars table if it does not already exist.
 
-open another terminal cd haupcar
-Then
+## Fourth Step
+Open another terminal, navigate to the `haupcar`
+thenrun
+### `cd haupcar`
+and run
 ### `npm run start`
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-start webpage it 
-## Car List Page
-show the car list and add new car button 
-if the database have datas it will show onthis pape with edit and delete button
-# add button click to redirect to Create page
-# edit button click to redirect to Update page 
-# delete button click to delete the data from database 
+# In Websit
+## Car List Page (Landing Page)
+This page shows the list of cars and includes an "Add New Car" button.
+If the database contains data, it will display here with Edit and Delete buttons.
+- The Add button redirects to the Create page.
+- The Edit button redirects to the Update page.
+- The Delete button removes the data from the database.
 
 ## Add Car Page
-user can add new car into web site 
+Users can add a new car to the website.
 
 ## Edit/Update Car Page
-user can Edit/Update car already exist in website 
+Users can edit or update an existing car on the website.
 
  
