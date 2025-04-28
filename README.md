@@ -3,8 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## First Step
-1. after download type ###`npm install` to install node module.
-2. Create a database and name it anything you want.
+Create a database and name it anything you want.
 
 ## Second Step
 <!-- change data in backend -->
@@ -20,7 +19,7 @@ Then save the file.
 
 ## Third Step
 
-Open a terminal, navigate to the `haupcar` directory, then to the `backend` directory:
+Open a terminal, navigate to the `backend` directory:
 
 run
 ### `cd haupcar`
@@ -33,11 +32,10 @@ to launch the backend server.
 It will automatically create the cars table if it does not already exist.
 
 ## Fourth Step
-Open another terminal, navigate to the `haupcar`
+Open another terminal, type `npm install` run.
 thenrun
-### `cd haupcar`
-and run
 ### `npm run start`
+in terminal
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 # In Websit
