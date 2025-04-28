@@ -6,13 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Create a database and name it anything you want.
 
 ## Second Step
-<!-- Upload the .env file; it is for purposes -->
-Update the information in the `.env` file:  
+<!-- change data in db.js -->
+Update the information in the `db.js` file:  
 Fill in the following data:
-- `DB_USER=` (your database username)<br>
-- `DB_PASSWORD=` (your database password)<br>
-- `DB_DATABASE=` (your database name)<br>
-- `DB_PORT=` (your database port)<br>
+  - `host`: "localhost" <br>
+  - `user`: "your database username" <br>
+  - `password`: "your database username" <br>
+  - `database`: "your database name" <br>
+  - `port`: your database port <br>
 
 Then save the file.
 
