@@ -7,7 +7,7 @@ Create a database and name it anything you want.
 
 ## Second Step
 <!-- change data in backend -->
-Update the information in the `db.js` file:  
+Update the information in backend at `db.js` file:  
 Fill in the following data:
   - `host`: "localhost" <br>
   - `user`: "your database username" <br>
