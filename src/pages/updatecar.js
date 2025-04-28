@@ -63,7 +63,7 @@ function UpdateCarForm() {
       <h1>Update Car</h1>
       <form onSubmit={handleSubmit}>
         <label>ID:</label>
-        <input type="text" name="brand" value={car.car_id} disabled />
+        <input type="text" name="brand" value={car.car_id} readOnly />
         <label>Brand:</label>
         <input
           type="text"
