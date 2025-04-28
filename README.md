@@ -3,7 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## First Step
-Create a database and name it anything you want.
+1. after download type ###`npm install` to install node module.
+2. Create a database and name it anything you want.
 
 ## Second Step
 <!-- change data in backend -->
