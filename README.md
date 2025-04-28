@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Create a database and name it anything you want.
 
 ## Second Step
-<!-- change data in db.js -->
+<!-- change data in backend -->
 Update the information in the `db.js` file:  
 Fill in the following data:
   - `host`: "localhost" <br>
